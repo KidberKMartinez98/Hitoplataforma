@@ -28,4 +28,6 @@ Route::get('/anuncio', [AnuncioController::class , 'index'])->name('anuncio');
 
 Route::get('/trabajador', [TrabajadorController::class , 'index'])->name('trabajador');
 
+Route::get('/Nosotros', [NosotrosController::class , 'index'])->name('nosotros');
+
 require __DIR__.'/auth.php';
